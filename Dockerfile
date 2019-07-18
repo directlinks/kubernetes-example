@@ -12,5 +12,5 @@ RUN mkdir -p /example/templates
 
 ADD templates /example/templates
 ADD backend.py /example
-EXPOSE 8080
+EXPOSE 80
 CMD ["python","/example/backend.py"]
